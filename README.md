@@ -1,7 +1,7 @@
-# Movie Analytics with Hadoop, MapReduce, and Pig on Google Cloud
+# IMDB Dataset Actors with Hadoop, MapReduce, and Pig on Google Cloud
 ## Overview
 
-This project leverages the Hadoop ecosystem, specifically MapReduce and Pig, to analyze movie datasets from the IMDB database. The primary goal of the project is to determine how many movies each person participated in (as either an actor or crew member) and how many movies each person directed. The project culminates in identifying the top 3 individuals with the highest participation or direction counts. The entire process was successfully deployed and executed on Google Cloud Platform (GCP).
+This project leverages the Hadoop ecosystem, specifically MapReduce and Pig, to analyze actors dataset from the IMDB. The primary goal of the project is to determine how many movies each person participated in (as either an actor or crew member) and how many movies each person directed. The project culminates in identifying the top 3 individuals with the highest participation or direction counts. The entire process was successfully deployed and executed on Google Cloud Platform (GCP).
 ## Tech Stack
 
     Java: Main programming language for the MapReduce tasks.

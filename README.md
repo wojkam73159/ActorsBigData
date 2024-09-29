@@ -1,4 +1,13 @@
-# ActorsBigData
-project in which i wrote a program in java that uses map reduce technique and hadoop library, to count how many movies did the person take part in and how many movies did a person was a director of.
-Than i use Pig to cenect the data from two diferent files, do some more map reduce tasks in which i limit myself to top 3 highest scores, conect tables and sum sets.
-I used imdb movies dataset https://www.imdb.com/interfaces/, project was run succesfully on google cloud platform , with a included script. 
+# Movie Analytics with Hadoop, MapReduce, and Pig on Google Cloud
+## Overview
+
+This project leverages the Hadoop ecosystem, specifically MapReduce and Pig, to analyze movie datasets from the IMDB database. The primary goal of the project is to determine how many movies each person participated in (as either an actor or crew member) and how many movies each person directed. The project culminates in identifying the top 3 individuals with the highest participation or direction counts. The entire process was successfully deployed and executed on Google Cloud Platform (GCP).
+## Tech Stack
+
+    Java: Main programming language for the MapReduce tasks.
+    Hadoop: Framework used for distributed storage and processing of large datasets.
+    MapReduce: Used to process and aggregate the movie participation and direction counts.
+    Apache Pig: High-level platform for querying and transforming the data.
+    Google Cloud Platform (GCP): Cloud infrastructure for running Hadoop jobs and handling large datasets.
+    IMDB Datasets: The movie dataset was sourced from IMDB's public database: IMDB Dataset.
+https://www.imdb.com/interfaces/

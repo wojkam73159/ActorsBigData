@@ -10,4 +10,5 @@ This project leverages the Hadoop ecosystem, specifically MapReduce and Pig, to 
     Apache Pig: High-level platform for querying and transforming the data.
     Google Cloud Platform (GCP): Cloud infrastructure for running Hadoop jobs and handling large datasets.
     IMDB Datasets: The movie dataset was sourced from IMDB's public database: IMDB Dataset.
+    Apache Airflow: used for orchestration of tasks in final version of the project
 https://www.imdb.com/interfaces/
